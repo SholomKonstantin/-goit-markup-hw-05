@@ -769,10 +769,11 @@ footer {
 .user-privacy-icon {
   fill: var(--color-white);
 }
-.visually-hidden:checked + .user-privacy-label > .user-privacy-span {
+.modal-checkbox-input:checked + .user-privacy-label > .user-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  border-color: #404bbf;
 }
 .user-privacy-link {
   color: var(--color-iris);
