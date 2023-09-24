@@ -661,12 +661,12 @@ footer {
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: var(--color-ocean);
+  background-color: #404bbf;
   border: none;
-  fill: var(--color-white);
 }
-.modal-close-btn:hover .modal-close-icon .modal-close-btn:focus .modal-close-icon {
-  fill: var(--color-white);
+.modal-close-btn:hover .modal-close-icon,
+.modal-close-btn:focus .modal-close-icon {
+  fill: #ffffff;
 }
 .modal-form {
   display: flex;
@@ -800,6 +800,7 @@ input[type='checkbox']:checked + label span {
 .modal-button:hover,
 .modal-button:focus {
   background-color: var(--color-ocean);
+  fill: var(--color-white);
 }
 
 /* Visually-hidden */
