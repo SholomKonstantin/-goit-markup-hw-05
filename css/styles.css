@@ -769,7 +769,7 @@ footer {
 .user-privacy-icon {
   fill: var(--color-white);
 }
-input[type='checkbox']:checked + label span {
+.visually-hidden:checked + .user-privacy-label > .user-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
