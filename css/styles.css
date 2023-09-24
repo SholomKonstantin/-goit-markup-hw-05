@@ -770,9 +770,9 @@ footer {
   fill: var(--color-white);
 }
 input[type='checkbox']:checked + label span {
-  background-color: var(--color-ocean);
+  background-color: #404bbf;
   border: none;
-  fill: var(--color-cloud);
+  fill: #f4f4fd;
 }
 .user-privacy-link {
   color: var(--color-iris);
