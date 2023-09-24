@@ -767,7 +767,7 @@ footer {
   fill: transparent;
 }
 .user-privacy-icon {
-  fill: var(--color-cloud);
+  fill: var(--color-white);
 }
 input[type='checkbox']:checked + label span {
   background-color: var(--color-ocean);
